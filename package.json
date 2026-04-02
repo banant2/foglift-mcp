@@ -1,13 +1,15 @@
 {
   "name": "foglift-mcp",
   "version": "1.1.0",
-  "description": "MCP server for Foglift — scan websites for SEO, GEO, and AI search readiness",
+  "description": "MCP server for Foglift \u2014 scan websites for SEO, GEO, and AI search readiness",
   "license": "MIT",
   "bin": {
     "foglift-mcp": "dist/index.js"
   },
   "main": "./dist/index.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsup src/index.ts --format cjs --clean",
     "prepublishOnly": "npm run build"
@@ -20,9 +22,20 @@
     "tsup": "^8.0.0",
     "typescript": "^5.0.0"
   },
-  "keywords": ["mcp", "foglift", "seo", "geo", "ai-search", "aeo"],
+  "keywords": [
+    "mcp",
+    "foglift",
+    "seo",
+    "geo",
+    "ai-search",
+    "aeo"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/banant2/Foglift"
+    "url": "https://github.com/banant2/foglift-mcp"
+  },
+  "homepage": "https://foglift.io",
+  "bugs": {
+    "url": "https://github.com/banant2/foglift-mcp/issues"
   }
 }
